@@ -1,3 +1,1 @@
-andrew,58
-nicky,87
-sammy,10
+& "C:/Program Files (x86)/Python37-32/python.exe" "c:/Users/taylor77205/Documents/python folder/1.2.2 .py",5

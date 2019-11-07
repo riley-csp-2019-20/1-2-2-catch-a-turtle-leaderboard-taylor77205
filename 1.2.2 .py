@@ -97,6 +97,6 @@ def manage_leaderboard():
 T.onclick(turtle_clicked)
 
 
-wn=trtl.Screen("blue")
+wn=trtl.Screen()
 wn.ontimer(countdown, counter_interval) 
 wn.mainloop()
