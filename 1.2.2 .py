@@ -60,10 +60,11 @@ def countdown():
   global timer, timer_up
   counter.clear()
   if timer <= 0:
-    counter.goto(0,0)
+    counter.color("purple")
     counter.write("Time's Up", font=font_setup)
     timer_up = True
     manage_leaderboard()
+    game_over()
     
   else:
     counter.write("Timer: " + str(timer), font=font_setup)
